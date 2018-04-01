@@ -1,6 +1,6 @@
 package com.springboot.ex;
 /**
- * Model Class
+ * Model Greeting Class
  * 
  * @author Udhay
  *
