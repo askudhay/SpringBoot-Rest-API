@@ -7,6 +7,7 @@
   <servlet>
       <servlet-name>my-rest-servlet</servlet-name>
       <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+      <!-- Include Rest Controller Package -->
       <init-param>
           <param-name>com.sun.jersey.config.property.packages</param-name>
           <param-value>com.springboot.ex</param-value>          
