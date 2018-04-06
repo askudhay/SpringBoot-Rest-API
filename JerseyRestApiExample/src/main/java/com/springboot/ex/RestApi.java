@@ -38,7 +38,7 @@ public class RestApi {
 	@Produces(MediaType.APPLICATION_JSON)
 	public User getUser(){
 		User user = new User();
-		user.setId(197927);
+		user.setId(123);
 		user.setUsername("Udhay.G");
 		return user;
 	}
