@@ -4,16 +4,16 @@
 
 This repository contains the code samples for RESTFul Webservice developed using Spring Boot 2.0. This tutorial would be helpful for beginners who start with implementing REST Api using Spring Boot.
 
-## Prerequisistes
+## Prerequisites
 
 You need to install below software(s) before you begin with. If you have them already installed in your Machine, well and good.
 
-* IDE - Any one from below:
+* IDE - Any one from below of your choice:
   * [Eclipse](https://www.eclipse.org/downloads/)
   * [Spring Tool Suite](https://spring.io/tools/sts/all)
   * [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
 * JDK / JRE - Preferably [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* HTTP Client to test REST Api (Any one from below):
+* HTTP Client to test REST Api (Any one from below of your choice):
   * [Post Man](https://www.getpostman.com/) - It also comes as Chrome extension.
   * [Advanced REST Client](https://install.advancedrestclient.com/#/install) - It also comes as Chrome extension.
 * Apach Maven - Install only when you build project outside of your IDE. IDE does come with built in Maven.
@@ -93,11 +93,13 @@ You will learn:
 * A simple greeting Service is created that respond with 'Good Morning' message based on the Accept-language set in request header. 
 * For now it handles, English, French, Tamil and Hindi locale.
 
-##### XML Model
-
-##### JSON Model
-
 ##### End points
+
+http://localhost:9001/i18n/ (Make sure the application is running before your try to access the Endpoint)
+
+###### Request Header
+
+Accept-Language: ta (or) Accept-Language: fr (or) Accept-Language: hi
 
 ### Demo Project
 
@@ -118,11 +120,13 @@ Also planning to deploy both Angular and Rest service in AWS so that you can see
 
 Watch the space !
 
-##### XML Model
+##### XML/JSON Model
 
-##### JSON Model
+https://gist.github.com/smartudhaya/842879f043019e74130b1da33b016845
 
 ##### End points
+
+Check Swagger UI for all Endpoints  - http://localhost:8080/swagger-ui.html (Make sure you imported the application and it is up & running before you access Endpoint).
 
 ## Deployment
 
