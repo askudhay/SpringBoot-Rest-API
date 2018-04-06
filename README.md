@@ -103,11 +103,14 @@ You will learn:
 
 #### Employee Rest Api 
 
+A simple REST Api is created for maintaining Employee inforamtion in the System.
+
 You will learn:
 
 * CRUD implementation using HTTP verbs
-* Swagger 2.o usage
+* Swagger 2.O usage
 * Custom response handler implementation - To handle error and exception
+* JSON and XML Negotiation
 
 Currently am developing an Angular app that talk to this Api to create, read, update and delete Employee information. Soon will post the repository link here.
 
@@ -125,7 +128,7 @@ Watch the space !
 
 For Example 1: Run / Deploy on Apache Tomcat Server.
 
-For other examples, embeeded tomcat server that comes with Spring boot will be used.
+For other examples, embedded tomcat server that comes with Spring boot will be used.
 
 If you wish to deploy the service in AWS, please follow this link - [Deploying a Spring Boot Application on AWS Using AWS Elastic Beanstalk](https://aws.amazon.com/blogs/devops/deploying-a-spring-boot-application-on-aws-using-aws-elastic-beanstalk/).
 
