@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the code samples for RESTFul Webservice developed using Spring Boot 2.0. This tutorial would be helpful for beginners who start with implementing REST Api using Spring Boot.
+This repository contains the code samples for RESTFul Webservice developed using Spring Boot 2.0. This tutorial would be helpful for beginners who wanna start with implementing REST Api using Spring Boot.
 
 ## Prerequisites
 
@@ -25,15 +25,18 @@ You need to install below software(s) before you begin with. If you have them al
 
 #### Jersey - REST Example
 
-To quickly get the glimpse of RESTFul webservice, I chose [Jersey](https://jersey.github.io/) framework to understand the REST controller configuration, HTTP Methods, Path and other stuffs. You will find the example handles the GET and POST request. Make sure you test it with HTTP Client.
+To quickly get you the glimpse of RESTFul webservice, I chose [Jersey](https://jersey.github.io/) framework to understand the REST controller configuration, HTTP Methods, Path and other stuffs. You will find the example handles the GET and POST request. Make sure you test it with HTTP Client.
 
 ### Example 2
 
 #### REST using Spring Boot - Hello World
 
-You will dive into Spring Boot World in this example. A quick simple Hello World application (Greets User) that shows the dependencies and other configuration to make REST application running. Greet yourself by making GET request with your name as Request Param.
+You are gonna dive into Spring Boot World in this example. A quick simple 'Hello World' service (It Greets User) that shows the dependencies and other configuration to make REST application running in Spring Boot environment. Greet yourself by making GET request with your name as Request Param, for your reference endpoints are below.
 
 ##### End points
+
+GET: http://localhost:8080/user/greeting
+GET: http://localhost:8080/user/greeting?name=Udhay
 
 ### Example 3
 
@@ -43,15 +46,20 @@ Enough introduction. Let's get into actual work.
 
 You will learn:
 
-* A simple User service is used in the example to demonstrate the CRUD operation using GET, POST, PUT and DELETE HTTP verbs.
-* You will play with static User object to retrieve and store User info. 
-* You will also learn about setting HTTP Response Codes (404, 500 ..) in reponse header based on the result of CRUD operation. 
+* A simple User service is created in the example to demonstrate the CRUD operation using GET, POST, PUT and DELETE HTTP verbs.
+* You play with static User object to retrieve and store User info. 
+* You also learn about setting HTTP Response Codes (404, 500 ..) in response header based on the result of CRUD operation. 
 
-##### XML Model
+##### XML/JSON Model
 
-##### JSON Model
+https://gist.github.com/smartudhaya/56df064536282c5150773535ad871c28
 
 ##### End points
+
+GET: http://localhost:8080/user
+POST: http://localhost:8080/user/save
+PUT: http://localhost:8080/update
+DELETE: http://localhost:8080/user/delete
 
 ### Example 4
 
@@ -59,15 +67,17 @@ You will learn:
 
 You will learn:
 
-* Spring JPA - Java Persistent Api to play with Database. In memory H2 database is used to store and retrieve User information.
+* Spring JPA - Java Persistent Api to play with Database. In memory H2 database (H2 Console: http://localhost:8080/h2-console/) is used to store and retrieve User information.
 * Custom Response Handler - Handles Error/Exception in the Service in most standard way and produces erro response accordingly,
 * Swagger 2.0 - Api documentation is discussed well in this example using Swagger api.
 
-##### XML Model
+##### XML/JSON Model
 
-##### JSON Model
+https://gist.github.com/smartudhaya/4ec1c20694050314c2d586b74f77a980
 
 ##### End points
+
+Check Swagger UI for all Endpoints  - http://localhost:8080/swagger-ui.html (Make sure you imported the application and it is up & running before you access Endpoint).
 
 ### Example 5
 
@@ -77,11 +87,14 @@ You will learn:
 
 * Hateoas implementation using Spring Boot.
 
-##### XML Model
+##### XML/JSON Model
 
-##### JSON Model
+https://gist.github.com/smartudhaya/7e04ab926e35581e74d8b6fbe660fe9f
 
 ##### End points
+
+GET: http://localhost:8080/product/
+POST: http://localhost:8080/product/
 
 ### Example 6
 
@@ -91,7 +104,7 @@ You will learn:
 
 * Internationalizing REST Api response using Spring Boot. 
 * A simple greeting Service is created that respond with 'Good Morning' message based on the Accept-language set in request header. 
-* For now it handles, English, French, Tamil and Hindi locale.
+* For now it handles: English, French, Tamil and Hindi locale.
 
 ##### End points
 
@@ -105,7 +118,7 @@ Accept-Language: ta (or) Accept-Language: fr (or) Accept-Language: hi
 
 #### Employee Rest Api 
 
-A simple REST Api is created for maintaining Employee inforamtion in the System.
+To conclude the REST learning with final demo project: A simple REST Api is created for maintaining Employee inforamtion in the System.
 
 You will learn:
 
