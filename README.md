@@ -37,9 +37,11 @@ You will dive into Spring Boot World in this example. A quick simple Hello World
 
 ### Example 3
 
-#### Spring Boot - REST - User Service
+#### Spring Boot - REST - User Service 1.0
 
 Enough introduction. Let's get into actual work. 
+
+You will learn:
 
 * A simple User service is used in the example to demonstrate the CRUD operation using GET, POST, PUT and DELETE HTTP verbs.
 * You will play with static User object to retrieve and store User info. 
@@ -53,9 +55,13 @@ Enough introduction. Let's get into actual work.
 
 ### Example 4
 
-#### Spring REST JPA - Upgraded User Service 
+#### Spring REST JPA - User Service 2.0
 
+You will learn:
 
+* Spring JPA - Java Persistent Api to play with Database. In memory H2 database is used to store and retrieve User information.
+* Custom Response Handler - Handles Error/Exception in the Service in most standard way and produces erro response accordingly,
+* Swagger 2.0 - Api documentation is discussed well in this example using Swagger api.
 
 ##### XML Model
 
@@ -65,6 +71,12 @@ Enough introduction. Let's get into actual work.
 
 ### Example 5
 
+#### Hateoas (Hypermedia) Rest Example
+
+You will learn:
+
+* Hateoas implementation using Spring Boot.
+
 ##### XML Model
 
 ##### JSON Model
@@ -73,6 +85,14 @@ Enough introduction. Let's get into actual work.
 
 ### Example 6
 
+#### Internationalization (i18n)
+
+You will learn:
+
+* Internationalizing REST Api response using Spring Boot. 
+* A simple greeting Service is created that respond with 'Good Morning' message based on the Accept-language set in request header. 
+* For now it handles, English, French, Tamil and Hindi locale.
+
 ##### XML Model
 
 ##### JSON Model
@@ -80,6 +100,20 @@ Enough introduction. Let's get into actual work.
 ##### End points
 
 ### Demo Project
+
+#### Employee Rest Api 
+
+You will learn:
+
+* CRUD implementation using HTTP verbs
+* Swagger 2.o usage
+* Custom response handler implementation - To handle error and exception
+
+Currently am developing an Angular app that talk to this Api to create, read, update and delete Employee information. Soon will post the repository link here.
+
+Also planning to deploy both Angular and Rest service in AWS so that you can see live demo of it.
+
+Watch the space !
 
 ##### XML Model
 
