@@ -27,6 +27,19 @@ You need to install below software(s) before you begin with. If you have them al
 
 To quickly get you the glimpse of RESTFul webservice, I chose [Jersey](https://jersey.github.io/) framework to understand the REST controller configuration, HTTP Methods, Path and other stuffs. You will find the example handles the GET and POST request. Make sure you test it with HTTP Client.
 
+##### JSON Model
+
+{
+    "id": 123,
+    "username": "Udhay.G"
+}
+
+##### End points
+
+GET: http://localhost:7878/JerseyRestApiExample/rest/welcome/user
+GET: http://localhost:7878/JerseyRestApiExample/rest/welcome/user/Udhay
+POST: http://localhost:7878/JerseyRestApiExample/rest/welcome/user/save
+
 ### Example 2
 
 #### REST using Spring Boot - Hello World
