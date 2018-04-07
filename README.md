@@ -37,7 +37,9 @@ To quickly get you the glimpse of RESTFul webservice, I chose [Jersey](https://j
 ##### End points
 
 GET: http://localhost:7878/JerseyRestApiExample/rest/welcome/user
+
 GET: http://localhost:7878/JerseyRestApiExample/rest/welcome/user/Udhay
+
 POST: http://localhost:7878/JerseyRestApiExample/rest/welcome/user/save
 
 ### Example 2
@@ -49,6 +51,7 @@ You are gonna dive into Spring Boot World in this example. A quick simple 'Hello
 ##### End points
 
 GET: http://localhost:8080/user/greeting
+
 GET: http://localhost:8080/user/greeting?name=Udhay
 
 ### Example 3
@@ -70,8 +73,11 @@ https://gist.github.com/smartudhaya/56df064536282c5150773535ad871c28
 ##### End points
 
 GET: http://localhost:8080/user
+
 POST: http://localhost:8080/user/save
+
 PUT: http://localhost:8080/update
+
 DELETE: http://localhost:8080/user/delete
 
 ### Example 4
@@ -107,6 +113,7 @@ https://gist.github.com/smartudhaya/7e04ab926e35581e74d8b6fbe660fe9f
 ##### End points
 
 GET: http://localhost:8080/product/
+
 POST: http://localhost:8080/product/
 
 ### Example 6
